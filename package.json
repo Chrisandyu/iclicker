@@ -2,6 +2,13 @@
   "name": "iclicker-lite",
   "private": true,
   "type": "module",
-  "engines": { "node": "22.x" },
-  "scripts": { "dev": "node --env-file=.env dev.js" }
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "node --env-file=.env dev.js"
+  },
+  "dependencies": {
+    "redis": "^6.3.1"
+  }
 }
